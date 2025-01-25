@@ -4,11 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="module" src="js/main.js" defer></script>
+    <link rel="stylesheet" href="sass/main.sass">
     <title>Vite App</title>
   </head>
   <body>
     <main>
-      <h1>Teste</h1>
+      <section class="login">
+        <h1>Faça seu Login</h1>
+        <form action="">
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+          </div>
+          <div>
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha">
+          </div>
+          <a href="#">Esqueci minha senha</a>
+        </form>
+      </section>
+      <section class="img">
+        <img src="assets/imgs/berserk.jpg" alt="">
+      </section>
     </main>
   </body>
 </html>
